@@ -8,12 +8,15 @@ function generatePassword() {
 //      a. Password length 8 < 128
 //      b. Lowercase, uppercase, numbers, & special charachters
 
-var userInput = window.prompt("Want to create a password?")
+var userInput = window.prompt("Ready to create a password?")
 
 if (userInput === true) {
-  console.log("Yes")
+  console.log("")
   return
 }
+
+Math.floor(Math.random() * 128) + 8;
+
 
 var passwordlength = parseInt(userInput)
 
