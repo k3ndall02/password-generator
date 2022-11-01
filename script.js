@@ -2,7 +2,6 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword() {
-  console.log("Today's a Great Day to be a Wildcat!");
 
 //  1. Prompt the user for the password criteria
 //      a. Password length 8 < 128
@@ -25,7 +24,6 @@ if (isNaN(passwordlength)) {
   return
 }
 
-Math.floor(Math.random() * 128) + 8;
 
 var userWantsNumbers = window.confirm("Do you want to use numbers?")
 var userWantsSymbols = window.confirm("Do you want to use symbols?")
@@ -40,24 +38,8 @@ var symbols = ["!","@", "#","$","%","^","&","*","?"]
 var numbers = ["0","1","2","3","4","5","6","7","8","9"]
 
 
-for (var i = 0; i < lowercaseLtrs.length; i++) {
-  console.log(lowercaseLtrs)
-}
-
-for (var i = 0; i < uppercaseLtrs.length; i++) {
-  console.log(uppercaseLtrs)
-}
-
-for (var i = 0; i < symbols.length; i++) {
-  console.log(symbols)
-}
-
-for (var i = 0; i < numbers.length; i++) {
-  console.log(numbers)
-}
-
 //  2. Validate the input
-if (userWantsLowercaseLtrs)
+if (userWantsLowercaseLtrs === true)
 
 
 
