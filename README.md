@@ -12,4 +12,4 @@ In the acceptance criteria is says that the length of the password must be betwe
 
 I wish I could continue on with the assignment but thats all I know and I've spent too much time on it. Thanks and I hope you all understand.
 
-Here is the deployment link: 
+Here is the deployment link: https://k3ndall02.github.io/password-generator/
