@@ -44,6 +44,10 @@ for (var i = 0; i < lowercaseLtrs.length; i++) {
   console.log(lowercaseLtrs)
 }
 
+for (var i = 0; i < uppercaseLtrs.length; i++) {
+  console.log(uppercaseLtrs)
+}
+
 for (var i = 0; i < symbols.length; i++) {
   console.log(symbols)
 }
@@ -52,12 +56,8 @@ for (var i = 0; i < numbers.length; i++) {
   console.log(numbers)
 }
 
-for (var i = 0; i < uppercaseLtrs.length; i++) {
-  console.log(uppercaseLtrs)
-}
-
 //  2. Validate the input
-
+if (userWantsLowercaseLtrs)
 
 
 
