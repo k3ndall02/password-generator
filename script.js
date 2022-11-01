@@ -40,11 +40,17 @@ var symbols = ["!","@", "#","$","%","^","&","*","?"]
 var numbers = ["0","1","2","3","4","5","6","7","8","9"]
 
 
-for (var i =0; i < lowercaseLtrs.length; i++) {
+for (var i = 0; i < lowercaseLtrs.length; i++) {
   uppercaseLtrs[i] = lowercaseLtrs[i].toUpperCase()
 }
 
+for (var i = 0; i < symbols.length; i++) {
+  console.log(symbols)
+}
 
+for (var i = 0; i < numbers.length; i++) {
+  console.log(numbers)
+}
 
 //  2. Validate the input
 
