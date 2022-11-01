@@ -15,24 +15,26 @@ if (userInput === true) {
   return
 }
 
-Math.floor(Math.random() * 128) + 8;
-
-
 var passwordlength = parseInt(userInput)
 
 if (isNaN(passwordlength)) {
-  window.alert("What you have entered is not a number!")
-  return
-}
-
-if (isNaN(passwordlength < 8 || passwordlength > 128)) {
+  window.alert("What you have entered is not valid!")
+} else if (passwordlength < 8 || passwordlength > 128) {
   window.alert("Keep password length between 8 and 128 characters!")
+} else {
   return
 }
 
-var userWantsNumbers = window.confirm("Do you want numbers in your password?")
+Math.floor(Math.random() * 128) + 8;
 
-var lowercaseLtrs = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+var userWantsNumbers = window.confirm("Do you want to use numbers?")
+var userWantsSymbols = window.confirm("Do you want to use symbols?")
+var userWantsLowercaseLtrs = window.confirm("Do you want to use lowercase letters?")
+var userWantsUppercaseLtrs = window.confirm("Do you want to use lowercase letters?");
+
+
+
+var lowercaseLtrs = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m","n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 var uppercaseLtrs = []
 var symbols = ["!","@", "#","$","%","^","&","*","?"]
 var numbers = ["0","1","2","3","4","5","6","7","8","9"]
